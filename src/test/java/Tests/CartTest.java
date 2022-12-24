@@ -13,7 +13,7 @@ public class CartTest extends BaseTest
     CartSteps cartSteps= new CartSteps(driver);
 
     @Test(description = "Scenario 4: Elements ara displayed in de Cart page")
-    public void addProduct()
+    public void seeCartList()
     {
         visit("https://www.demoblaze.com/");
         productSteps.waitTime(3);

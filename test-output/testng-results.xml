@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="10801" started-at="2022-12-23T23:47:04 PST" finished-at="2022-12-23T23:47:15 PST">
+    <groups>
+    </groups>
+    <test name="Capstone_Project" duration-ms="10801" started-at="2022-12-23T23:47:04 PST" finished-at="2022-12-23T23:47:15 PST">
+      <class name="Tests.CartTest">
+        <test-method status="PASS" signature="seeCartList()[pri:0, instance:Tests.CartTest@69653e16]" name="seeCartList" duration-ms="10753" started-at="2022-12-23T23:47:04 PST" description="Scenario 4: Elements ara displayed in de Cart page" finished-at="2022-12-23T23:47:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeCartList -->
+        <test-method status="PASS" signature="exitDriver()[pri:0, instance:Tests.CartTest@69653e16]" name="exitDriver" is-config="true" duration-ms="2" started-at="2022-12-23T23:47:15 PST" finished-at="2022-12-23T23:47:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitDriver -->
+      </class> <!-- Tests.CartTest -->
+    </test> <!-- Capstone_Project -->
+  </suite> <!-- Default Suite -->
+</testng-results>
