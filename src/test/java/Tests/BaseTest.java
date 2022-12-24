@@ -19,7 +19,7 @@ public class BaseTest
     @AfterClass(alwaysRun = true)
     public void exitDriver()
     {
-        //driver.close();
+        driver.close();
     }
 
     public void visit(String url)
